@@ -62,8 +62,7 @@ public class TestHumanManagement
 		System.out.println("\nStudents sorted by grade:\n");
 		SortStudent(students);
 
-		// Collections.sort(humans, new Human());
-
+		// Polymorphism
 		List<Human> human = new ArrayList<Human>();
 		human.addAll(students);
 		human.addAll(workers);
